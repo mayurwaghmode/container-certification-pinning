@@ -1,0 +1,173 @@
+{
+    "certified": false,
+    "deleted": false,
+    "docker_image_digest": "sha256:c9f97015aeda46f9493968176b62943ec9cd85c614d283197398d2dc3c1896f9",
+    "docker_image_id": "sha256:e464ced178c508145b5ebfb1097f38a55196d80496530d301079a5cd69878b98",
+    "image_id": "sha256:c9f97015aeda46f9493968176b62943ec9cd85c614d283197398d2dc3c1896f9",
+    "parsed_data": {
+        "architecture": "ppc64le",
+        "command": "operator-manifest --help",
+        "created": "2022-03-24 17:10:11.256085345 +0000 UTC",
+        "image_id": "sha256:c9f97015aeda46f9493968176b62943ec9cd85c614d283197398d2dc3c1896f9",
+        "labels": [
+            {
+                "name": "vendor",
+                "value": "Red Hat, Inc."
+            },
+            {
+                "name": "version",
+                "value": "1"
+            },
+            {
+                "name": "description",
+                "value": "Use the operator-manifest binary within the image to extract, resolve, and replace image references in ClusterServiceVersion files."
+            },
+            {
+                "name": "distribution-scope",
+                "value": "public"
+            },
+            {
+                "name": "io.buildah.version",
+                "value": "1.23.1"
+            },
+            {
+                "name": "maintainer",
+                "value": "https://github.com/containerbuildsystem"
+            },
+            {
+                "name": "url",
+                "value": "https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/python-39/images/1-35.1647529301"
+            },
+            {
+                "name": "vcs-type",
+                "value": "git"
+            },
+            {
+                "name": "vcs-url",
+                "value": "https://github.com/containerbuildsystem/operator-manifest.git"
+            },
+            {
+                "name": "build-date",
+                "value": "2022-03-17T15:07:34.566031"
+            },
+            {
+                "name": "com.redhat.license_terms",
+                "value": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI"
+            },
+            {
+                "name": "io.k8s.description",
+                "value": "Use the operator-manifest binary within the image to extract, resolve, and replace image references in ClusterServiceVersion files."
+            },
+            {
+                "name": "io.openshift.expose-services",
+                "value": "8080:http"
+            },
+            {
+                "name": "name",
+                "value": "ubi8/python-39"
+            },
+            {
+                "name": "summary",
+                "value": "A tool for processing operator manifests"
+            },
+            {
+                "name": "usage",
+                "value": "s2i build https://github.com/sclorg/s2i-python-container.git --context-dir=3.9/test/setup-test-app/ ubi8/python-39 python-sample-app"
+            },
+            {
+                "name": "vcs-ref",
+                "value": ""
+            },
+            {
+                "name": "com.redhat.build-host",
+                "value": "ppc64le-c3-vm-20.osbs.prod.psi.rdu2.redhat.com"
+            },
+            {
+                "name": "com.redhat.component",
+                "value": "python-39-container"
+            },
+            {
+                "name": "io.buildpacks.stack.id",
+                "value": "com.redhat.stacks.ubi8-python-39"
+            },
+            {
+                "name": "io.openshift.s2i.scripts-url",
+                "value": "image:///usr/libexec/s2i"
+            },
+            {
+                "name": "io.s2i.scripts-url",
+                "value": "image:///usr/libexec/s2i"
+            },
+            {
+                "name": "architecture",
+                "value": "ppc64le"
+            },
+            {
+                "name": "io.k8s.display-name",
+                "value": "operator-manifest"
+            },
+            {
+                "name": "io.openshift.tags",
+                "value": "builder,python,python39,python-39,rh-python39"
+            },
+            {
+                "name": "release",
+                "value": "35.1647529301"
+            }
+        ],
+        "layers": [
+            "sha256:9ac03268e26fd849e6e0af137f98debca73b972e978edd58e1c95a87257534c3",
+            "sha256:5b96c0e9bd36dabe495d5ef8227a0c45a1872e8bc40c2112509690f94382ebf4",
+            "sha256:4f9320da661962de7236e7cf28313e236e998458072a455ec23c113a999f483f",
+            "sha256:0728a1b5877a541f4b66d03cc13c64800d903a804a1f7a0fa7268a3942712156",
+            "sha256:1e4025b1ceeaa3869fef2056ec89a3e98b3ad6744de2cb11983cf50e3c9880c6",
+            "sha256:5019477c9d647f2445fd526a5b6200a7117706b11e467671b5a6c9323ec20ba9"
+        ],
+        "os": "linux",
+        "size": 1354,
+        "uncompressed_layer_sizes": [
+            {
+                "layer_id": "sha256:ecfbe00518988d35e4dd775ae726b0eae98f208534e8f4b6454c1f3bb3314bc7",
+                "size_bytes": 299397120
+            },
+            {
+                "layer_id": "sha256:795dad719432d533f65263b2b3fd11588d9fecb211a3d5fbe45387d5611e18a5",
+                "size_bytes": 20480
+            },
+            {
+                "layer_id": "sha256:4db2c80c4c6abae086f57ba1d66b205bdb02416e430b40763854fe76438eb508",
+                "size_bytes": 62894080
+            },
+            {
+                "layer_id": "sha256:eb9322d4154ecc25113209fbad9ac3f88964176bd6a1db09313a9b6b46523d2e",
+                "size_bytes": 425953280
+            },
+            {
+                "layer_id": "sha256:1d3f09d36a2ae37d9eb45494d7d1419df04e4984b6d9ab80c177d5c57354c93a",
+                "size_bytes": 233287680
+            },
+            {
+                "layer_id": "sha256:10e090772f54b7d1f6554317b2f227db9ceced1acb6992ec17de5dfa4850258c",
+                "size_bytes": 104529408
+            }
+        ]
+    },
+    "architecture": "ppc64le",
+    "raw_config": "{\"created\":\"2022-03-24T17:10:11.256085345Z\",\"architecture\":\"ppc64le\",\"os\":\"linux\",\"config\":{\"User\":\"1001\",\"ExposedPorts\":{\"8080/tcp\":{}},\"Env\":[\"PATH=/opt/app-root/src/.local/bin/:/opt/app-root/src/bin:/opt/app-root/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\",\"container=oci\",\"SUMMARY=Platform for building and running Python 3.9 applications\",\"DESCRIPTION=Python 3.9 available as container is a base platform for building and running various Python 3.9 applications and frameworks. Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python's elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.\",\"STI_SCRIPTS_URL=image:///usr/libexec/s2i\",\"STI_SCRIPTS_PATH=/usr/libexec/s2i\",\"APP_ROOT=/opt/app-root\",\"HOME=/opt/app-root/src\",\"PLATFORM=el8\",\"NODEJS_VER=14\",\"PYTHON_VERSION=3.9\",\"PYTHONUNBUFFERED=1\",\"PYTHONIOENCODING=UTF-8\",\"LC_ALL=en_US.UTF-8\",\"LANG=en_US.UTF-8\",\"CNB_STACK_ID=com.redhat.stacks.ubi8-python-39\",\"CNB_USER_ID=1001\",\"CNB_GROUP_ID=0\",\"PIP_NO_CACHE_DIR=off\",\"BASH_ENV=/opt/app-root/etc/scl_enable\",\"ENV=/opt/app-root/etc/scl_enable\",\"PROMPT_COMMAND=. /opt/app-root/etc/scl_enable\"],\"Entrypoint\":[\"container-entrypoint\"],\"Cmd\":[\"operator-manifest\",\"--help\"],\"WorkingDir\":\"/opt/app-root/workdir\",\"Labels\":{\"architecture\":\"ppc64le\",\"build-date\":\"2022-03-17T15:07:34.566031\",\"com.redhat.build-host\":\"ppc64le-c3-vm-20.osbs.prod.psi.rdu2.redhat.com\",\"com.redhat.component\":\"python-39-container\",\"com.redhat.license_terms\":\"https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI\",\"description\":\"Use the operator-manifest binary within the image to extract, resolve, and replace image references in ClusterServiceVersion files.\",\"distribution-scope\":\"public\",\"io.buildah.version\":\"1.23.1\",\"io.buildpacks.stack.id\":\"com.redhat.stacks.ubi8-python-39\",\"io.k8s.description\":\"Use the operator-manifest binary within the image to extract, resolve, and replace image references in ClusterServiceVersion files.\",\"io.k8s.display-name\":\"operator-manifest\",\"io.openshift.expose-services\":\"8080:http\",\"io.openshift.s2i.scripts-url\":\"image:///usr/libexec/s2i\",\"io.openshift.tags\":\"builder,python,python39,python-39,rh-python39\",\"io.s2i.scripts-url\":\"image:///usr/libexec/s2i\",\"maintainer\":\"https://github.com/containerbuildsystem\",\"name\":\"ubi8/python-39\",\"release\":\"35.1647529301\",\"summary\":\"A tool for processing operator manifests\",\"url\":\"https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/python-39/images/1-35.1647529301\",\"usage\":\"s2i build https://github.com/sclorg/s2i-python-container.git --context-dir=3.9/test/setup-test-app/ ubi8/python-39 python-sample-app\",\"vcs-ref\":\"\",\"vcs-type\":\"git\",\"vcs-url\":\"https://github.com/containerbuildsystem/operator-manifest.git\",\"vendor\":\"Red Hat, Inc.\",\"version\":\"1\"}},\"rootfs\":{\"type\":\"layers\",\"diff_ids\":[\"sha256:ecfbe00518988d35e4dd775ae726b0eae98f208534e8f4b6454c1f3bb3314bc7\",\"sha256:795dad719432d533f65263b2b3fd11588d9fecb211a3d5fbe45387d5611e18a5\",\"sha256:4db2c80c4c6abae086f57ba1d66b205bdb02416e430b40763854fe76438eb508\",\"sha256:eb9322d4154ecc25113209fbad9ac3f88964176bd6a1db09313a9b6b46523d2e\",\"sha256:1d3f09d36a2ae37d9eb45494d7d1419df04e4984b6d9ab80c177d5c57354c93a\",\"sha256:10e090772f54b7d1f6554317b2f227db9ceced1acb6992ec17de5dfa4850258c\"]},\"history\":[{\"created\":\"2022-03-16T16:59:24.193955251Z\",\"comment\":\"Imported from -\"},{\"created\":\"2022-03-16T16:59:59.012348Z\"},{\"created\":\"2022-03-17T14:32:24.872205Z\"},{\"created\":\"2022-03-17T14:48:11.639705Z\"},{\"created\":\"2022-03-17T15:09:26.768796Z\"},{\"created\":\"2022-03-24T17:07:59.099448312Z\",\"created_by\":\"/bin/sh -c #(nop) LABEL     summary=\\\"A tool for processing operator manifests\\\"     description=\\\"Use the operator-manifest binary within the image to extract, resolve, and replace image references in ClusterServiceVersion files.\\\"     io.k8s.description=\\\"Use the operator-manifest binary within the image to extract, resolve, and replace image references in ClusterServiceVersion files.\\\"     io.k8s.display-name=\\\"operator-manifest\\\"     maintainer=\\\"https://github.com/containerbuildsystem\\\"     vcs-url=\\\"https://github.com/containerbuildsystem/operator-manifest.git\\\"     vcs-ref=\\\"\\\"\",\"empty_layer\":true},{\"created\":\"2022-03-24T17:08:00.100910231Z\",\"created_by\":\"/bin/sh -c #(nop) COPY file:cc81eb84340fc24a7bf31cc704cb9d5cb9be938afb83269472b697a035eba67d in /licenses/LICENSE \",\"empty_layer\":true},{\"created\":\"2022-03-24T17:08:00.25922647Z\",\"created_by\":\"/bin/sh -c #(nop) USER 0\",\"empty_layer\":true},{\"created\":\"2022-03-24T17:09:09.959871916Z\",\"created_by\":\"/bin/sh -c dnf install -y     --setopt=deltarpm=0     --setopt=install_weak_deps=false     --setopt=tsflags=nodocs     skopeo     \\u0026\\u0026 dnf clean all\",\"empty_layer\":true},{\"created\":\"2022-03-24T17:09:10.156400409Z\",\"created_by\":\"/bin/sh -c #(nop) USER 1001\",\"empty_layer\":true},{\"created\":\"2022-03-24T17:09:10.313123279Z\",\"created_by\":\"/bin/sh -c #(nop) WORKDIR /opt/app-root/src\",\"empty_layer\":true},{\"created\":\"2022-03-24T17:09:11.349973416Z\",\"created_by\":\"/bin/sh -c #(nop) COPY dir:00187a191220b2561d8a4980e3073a2b20fa7c76daa2a532b243cd55173df713 in . \",\"empty_layer\":true},{\"created\":\"2022-03-24T17:10:10.864540188Z\",\"created_by\":\"/bin/sh -c     pip install -r requirements.txt  --no-cache-dir --no-deps --require-hashes \\u0026\\u0026     pip install . --no-deps --no-cache-dir\",\"empty_layer\":true},{\"created\":\"2022-03-24T17:10:11.089469196Z\",\"created_by\":\"/bin/sh -c #(nop) WORKDIR /opt/app-root/workdir\",\"empty_layer\":true},{\"created\":\"2022-03-24T17:10:15.965701396Z\",\"created_by\":\"/bin/sh -c #(nop) CMD [\\\"operator-manifest\\\", \\\"--help\\\"]\",\"comment\":\"FROM registry.access.redhat.com/ubi8/python-39:1\"}]}",
+    "repositories": [
+        {
+            "published": false,
+            "push_date": "2022-03-24T17:23:27Z",
+            "registry": "quay.io",
+            "repository": "mayurwaghmode111/demo-container",
+            "tags": [
+                {
+                    "added_date": "2022-03-24T17:23:27Z",
+                    "name": "power"
+                }
+            ]
+        }
+    ],
+    "sum_layer_size_bytes": 1126082048,
+    "uncompressed_top_layer_id": "sha256:ecfbe00518988d35e4dd775ae726b0eae98f208534e8f4b6454c1f3bb3314bc7"
+}

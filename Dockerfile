@@ -10,6 +10,7 @@ LABEL \
     # Clear out the vcs-ref from the parent image
     vcs-ref=""
 
+COPY LICENSE /licenses/LICENSE
 USER 0
 RUN dnf install -y \
     --setopt=deltarpm=0 \
